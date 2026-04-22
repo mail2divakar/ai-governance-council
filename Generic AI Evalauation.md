@@ -10,3 +10,22 @@
 | Latency           | Response time                                 | Within SLA          | Trace Analytics          |
 | Cost              | Cost per task                                 | Within Budget       | Trace Analytics          |
 | User Satisfaction | End-user feedback                             | Stable or Improving | User Feedback            |
+
+
+
+
+
+
+| Dimension         | Description                                                      | Typical Threshold   |
+| ----------------- | ---------------------------------------------------------------- | ------------------- |
+| Correctness       | Is the output factually or logically correct?                    | >= 4.2 / 5          |
+| Relevance         | Does the output answer the user request?                         | >= 4.0 / 5          |
+| Completeness      | Are all important details included?                              | >= 4.0 / 5          |
+| Consistency       | Does the system produce stable outputs for similar inputs?       | >= 4.0 / 5          |
+| Safety            | Does the output avoid harmful, biased, or non-compliant content? | 100% pass           |
+| Groundedness      | Is the answer supported by evidence or retrieved context?        | >= 4.0 / 5          |
+| Conciseness       | Is the output concise and easy to understand?                    | >= 4.0 / 5          |
+| Format Adherence  | Does the response follow the required format?                    | >= 95%              |
+| Latency           | Is the response time within SLA?                                 | Within target       |
+| Cost              | Is the cost per task within budget?                              | Within budget       |
+| User Satisfaction | Do users find the output useful?                                 | Stable or Improving |
